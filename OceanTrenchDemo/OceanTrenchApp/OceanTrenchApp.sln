@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OceanTrenchApp", "OceanTrenchApp.csproj", "{CC0A19BF-D286-4B95-ACC4-FA131F9D6001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OceanTrenchModel", "..\OceanTrenchModel\OceanTrenchModel.csproj", "{DC4F7B7D-B5C4-4202-85DF-99BBA6360BD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OceanTrenchImplementations", "..\OceanTrenchImplementations\OceanTrenchImplementations.csproj", "{F703F6D9-30D3-4C99-884C-6B3BF08E5E28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OceanTrenchInterfaces", "..\OceanTrenchInterfaces\OceanTrenchInterfaces.csproj", "{C0F9B505-BBBE-43FB-AA06-696EA077616F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A021363B-F9E5-4F90-B5D1-B3CF712AFAF1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OceanTrenchTests", "..\OceanTrenchTests\OceanTrenchTests.csproj", "{1239E383-CAE5-4179-B207-EE2399A5F125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0A19BF-D286-4B95-ACC4-FA131F9D6001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0A19BF-D286-4B95-ACC4-FA131F9D6001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0A19BF-D286-4B95-ACC4-FA131F9D6001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0A19BF-D286-4B95-ACC4-FA131F9D6001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4F7B7D-B5C4-4202-85DF-99BBA6360BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4F7B7D-B5C4-4202-85DF-99BBA6360BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4F7B7D-B5C4-4202-85DF-99BBA6360BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4F7B7D-B5C4-4202-85DF-99BBA6360BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F703F6D9-30D3-4C99-884C-6B3BF08E5E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F703F6D9-30D3-4C99-884C-6B3BF08E5E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F703F6D9-30D3-4C99-884C-6B3BF08E5E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F703F6D9-30D3-4C99-884C-6B3BF08E5E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F9B505-BBBE-43FB-AA06-696EA077616F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F9B505-BBBE-43FB-AA06-696EA077616F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F9B505-BBBE-43FB-AA06-696EA077616F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F9B505-BBBE-43FB-AA06-696EA077616F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1239E383-CAE5-4179-B207-EE2399A5F125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1239E383-CAE5-4179-B207-EE2399A5F125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1239E383-CAE5-4179-B207-EE2399A5F125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1239E383-CAE5-4179-B207-EE2399A5F125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16F0BBED-C2BB-49B3-9DE9-2BC61A08F72F}
+	EndGlobalSection
+EndGlobal
